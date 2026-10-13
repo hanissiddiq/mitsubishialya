@@ -35,15 +35,18 @@ const images = {
   consultant: '/images/profil-alya.png',
   suv_xforce : '/images/mobil/mobil-xforce.png',
   pajero_sport : '/images/mobil/pajero.png',
+  expander : '/images/mobil/expander.png',
+  xforce : '/images/mobil/xforce.jpg',
+  triton : '/images/mobil/triton.png',
   service: 'https://images.pexels.com/photos/4895417/pexels-photo-4895417.jpeg?auto=compress&cs=tinysrgb&w=1000',
   location: 'https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=1400',
 };
 
 const models = [
-  { name: 'XFORCE', type: 'SUV 5 SEATER', price: 'Rp 399 Juta', image: images.suv_xforce, tag: 'PALING DICARI' },
+  { name: 'XFORCE', type: 'SUV 5 SEATER', price: 'Rp 399 Juta', image: images.xforce, tag: 'PALING DICARI' },
   { name: 'PAJERO SPORT', type: 'SUV 7 SEATER', price: 'Rp 571 Juta', image: images.pajero_sport, tag: 'FAVORIT' },
-  { name: 'XPANDER', type: 'MPV 7 SEATER', price: 'Rp 283 Juta', image: images.showroom, tag: 'KELUARGA' },
-  { name: 'TRITON', type: 'DOUBLE CABIN', price: 'Rp 287 Juta', image: images.service, tag: 'ADVENTURE' },
+  { name: 'XPANDER', type: 'MPV 7 SEATER', price: 'Rp 283 Juta', image: images.expander, tag: 'KELUARGA' },
+  { name: 'TRITON', type: 'DOUBLE CABIN', price: 'Rp 287 Juta', image: images.triton, tag: 'ADVENTURE' },
 ];
 
 const news = [
